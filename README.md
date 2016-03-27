@@ -1,6 +1,11 @@
 # scaleway-ipxe
 :dancer: custom IPXE config on Scaleway servers
 
+## Dependencies
+
+- [scw](https://github.com/scaleway/scaleway-cli)
+- [slow-stream](https://github.com/moul/slow-stream)
+
 ## Usage
 
 ```console
