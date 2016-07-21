@@ -3,7 +3,7 @@
 #
 # Examples:
 #        ipxe.expect \
-#            "--commercial-type=VC1 50G" \
+#            "--commercial-type=VC1S 50G" \
 #            "chain --autofree http://boot.netboot.xyz/menu.ipxe"
 #
 #        ipxe.expect \
@@ -15,7 +15,7 @@
 set timeout 60
 set scwargs [lindex $argv 0]
 set commands [lrange $argv 1 end]
-#FIXME: set default scwargs: --commercial-type=VC1 50G
+#FIXME: set default scwargs: --commercial-type=VC1S 50G
 
 
 # Start scw-run in a slow-stream
