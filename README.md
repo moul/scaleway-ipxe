@@ -1,4 +1,7 @@
 # scaleway-ipxe
+
+[![GuardRails badge](https://badges.production.guardrails.io/moul/scaleway-ipxe.svg)](https://www.guardrails.io)
+
 :dancer: custom IPXE config on Scaleway servers
 
 ## Dependencies
